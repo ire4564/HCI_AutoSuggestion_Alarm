@@ -1,6 +1,38 @@
-# HCI_project
+![AutoSuggestion Alarm](C:\Users\user\Downloads\AutoSuggestion Alarm.png) 
 
-UI Demo: https://bottomup.invisionapp.com/console/share/QX3005Q8JH/757190864
+![preview badge](https://img.shields.io/github/languages/code-size/ire4564/HCI_AutoSuggestion_Alarm)  ![preview badge](https://img.shields.io/github/repo-size/ire4564/HCI_AutoSuggestion_Alarm)
 
-![gif](https://user-images.githubusercontent.com/44183221/130992964-320d07d8-56de-4434-8c16-85a28ed696bb.gif)
+## Tech Stack
 
+[![img](https://camo.githubusercontent.com/655d9cc4402b42c06708a0b87a683de1c9358995fe055a2984486d6fe4229c59/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163744e61746976652d3631646166623f7374796c653d666c6174266c6f676f3d7265616374266c6f676f436f6c6f723d7768697465)](https://camo.githubusercontent.com/655d9cc4402b42c06708a0b87a683de1c9358995fe055a2984486d6fe4229c59/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163744e61746976652d3631646166623f7374796c653d666c6174266c6f676f3d7265616374266c6f676f436f6c6f723d7768697465)  [![img](https://camo.githubusercontent.com/5346585204aa17630cc0dd80a57d42e2b6c66a12add2e761f9b0cb3fce05d167/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d6462616230393f7374796c653d666c6174266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d7768697465)](https://camo.githubusercontent.com/5346585204aa17630cc0dd80a57d42e2b6c66a12add2e761f9b0cb3fce05d167/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d6462616230393f7374796c653d666c6174266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d7768697465) [![img](https://camo.githubusercontent.com/c7c6b345614310d2ca374d1e7dc270de4a15dd29e07a63acb21bd04a6b115a4d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f536173732d6363363639393f7374796c653d666c6174266c6f676f3d73617373266c6f676f436f6c6f723d7768697465)](https://camo.githubusercontent.com/c7c6b345614310d2ca374d1e7dc270de4a15dd29e07a63acb21bd04a6b115a4d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f536173732d6363363639393f7374796c653d666c6174266c6f676f3d73617373266c6f676f436f6c6f723d7768697465)  [![img](https://camo.githubusercontent.com/dac51dc29a687631e486f878ece50888df433df52c1abae1aceeddd67e6d5c9c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4157532d3233326633653f7374796c653d666c6174266c6f676f3d616d617a6f6e2d617773266c6f676f436f6c6f723d7768697465)](https://camo.githubusercontent.com/dac51dc29a687631e486f878ece50888df433df52c1abae1aceeddd67e6d5c9c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4157532d3233326633653f7374796c653d666c6174266c6f676f3d616d617a6f6e2d617773266c6f676f436f6c6f723d7768697465)  [![img](https://camo.githubusercontent.com/bad10e3519a71c916ce45da7133f4e3a683e862d51e9047c9d55cb087bd17507/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4669676d612d6632346531653f7374796c653d666c6174266c6f676f3d6669676d61266c6f676f436f6c6f723d7768697465)](https://camo.githubusercontent.com/bad10e3519a71c916ce45da7133f4e3a683e862d51e9047c9d55cb087bd17507/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4669676d612d6632346531653f7374796c653d666c6174266c6f676f3d6669676d61266c6f676f436f6c6f723d7768697465)  [![img](https://camo.githubusercontent.com/8a19dadd4729bb9d299571218115114adaffb798649289553238373ffe281b83/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f64652e6a732d3030633762373f7374796c653d666c6174266c6f676f3d6e6f64652e6a73266c6f676f436f6c6f723d7768697465)](https://camo.githubusercontent.com/8a19dadd4729bb9d299571218115114adaffb798649289553238373ffe281b83/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f64652e6a732d3030633762373f7374796c653d666c6174266c6f676f3d6e6f64652e6a73266c6f676f436f6c6f723d7768697465)  <span><img src="https://img.shields.io/badge/FireBase-0052cc?style=flat&logo=firebase&logoColor=white"/></span> 
+
+## UI Demo 
+
+> invision Live Demo: http://asq.kr/yXrqpVU
+
+![gif](https://user-images.githubusercontent.com/44183221/130992964-320d07d8-56de-4434-8c16-85a28ed696bb.gif) 
+
+
+
+## About Project
+
+자기 암시 (Auto Suggestion)은 목표를 상기 시키고, 행동할 가능성 <순응도>를 높여주는 효과가 있다. 이에 따라 프로그램을 활용하여, 아날로그적으로 하던 자기 암시를 자동화 시키는 방법으로 Application을 개발하는 방법을 택했다. 
+
+본 프로젝트를 진행함으로써, 컴퓨터와의 상호작용을 이용한 자기 암시 알림 어플이 개인의 순응도와, 목표 달성도에 어떠한 영향을 끼치는지 실험을 해보고, 결과를 이용하여 개인의 목표를 달성할 확률을 높여주고자 프로젝트를 진행한다. 또한 실험이 성공적으로 진행되면, 운동 뿐만 아니라 다양한 분야에서도 활용될 수 있을 것으로 기대된다.
+
+> Experiment Plan:  http://asq.kr/Z6hcL
+
+
+
+## UI Content
+
+* <b>Main</b>
+  자신이 진행하고 있는 실험 집단, 실험 종료일 및 진행도, 오늘 진행될 알람, 목표에 대해 표시합니다.
+* <b>알림 설정</b>
+  매주 일요일 밤~월요일 사이에 목표 설정을 유도합니다. 입력 데이터는 요일, 시간, 목표 횟수를 입력하도록 유도합니다.
+* <b>알림 목록</b>
+  설정된 알림 목록을 보여줍니다. 수정을 할 경우, 사유를 입력 하도록 하여 분석 시에 사용합니다.
+* <b>알림</b>
+  정해진 시간에 알림이 울립니다. 자기 암시를 할 경우, 하지 않을 경우에 따른 모집단에 따라서 시나리오 루트를 다르게 설정합니다.
+* <b>만보기 (Pedometer) </b>
+  걸음 수 데이터를 측정하기 위하여 React Native의 Sensor 라이브러리 (Pedometer)를 사용하여 걸음 수를 측정합니다. 운동은 스쿼트로 고정하며, 진행 횟수를 화면에 표시해 주도록 합니다.

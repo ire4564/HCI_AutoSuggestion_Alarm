@@ -1,4 +1,4 @@
-![AutoSuggestion Alarm](C:\Users\user\Downloads\AutoSuggestion Alarm.png) 
+![AutoSuggestion Alarm](https://user-images.githubusercontent.com/44183221/131086348-58b38cd0-b9b0-4787-8eec-3ac8ad09b617.png)
 
 ![preview badge](https://img.shields.io/github/languages/code-size/ire4564/HCI_AutoSuggestion_Alarm)  ![preview badge](https://img.shields.io/github/repo-size/ire4564/HCI_AutoSuggestion_Alarm)
 

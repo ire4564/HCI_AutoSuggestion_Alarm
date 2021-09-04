@@ -8,6 +8,9 @@
 
 import React from 'react';
 import type {Node} from 'react';
+//Add Pedometer
+import Pedometer from "react-native-pedometer";
+
 import {
   SafeAreaView,
   ScrollView,
@@ -25,6 +28,24 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+
+//Add Pedometer (npm modules)
+function PedometerFunc() {
+  Pedometer.isSupported().then((result) => {
+    if (result) {
+      console.log('Sensor TYPE_STEP_COUNTER is supported on this device');
+
+      const myModuleEvt = new NativeEventEmitter(NativeModules.Pedometer);
+      myModuleEvt.addListener('StepCounter', (data) => {
+        console.log('STEPS', data.steps);
+      });
+
+      Pedometer.startStepCounter();
+    } else {
+      console.log('Sensor TYPE_STEP_COUNTER is not supported on this device');
+    }
+  });
+}
 
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -72,6 +93,7 @@ const App: () => Node = () => {
           <Section title="HCI Project">
             Test <Text style={styles.highlight}>Google API</Text> to exercise data.
           </Section>
+          {PedometerFunc}
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -12,7 +12,9 @@
   "dependencies": {
     "react": "17.0.2",
     "react-native": "0.65.1",
-    "react-native-pedometer": "0.0.7"
+    "react-native-pedometer": "0.0.7",
+    "react-native-sensors": "^5.1.2",
+    "rxjs": "^6.3.3"
   },
   "devDependencies": {
     "@babel/core": "7.15.0",
